@@ -34,18 +34,18 @@ AI-VOICE-BOT/ │── brain_of_the_doctor.py # AI model integration for image 
 │── .venv, .gradio # Virtual environment & dependencies
 │── Pipfile, Pipfile.lock # Dependency management files
 
+
 ## How It Works
 
-1. **Upload an Image** – The user uploads a skin-related image.
-   ![Acne Example](acne.jpg)
+1. **Upload an Image** – The user uploads a skin-related image.  
+   <img src="https://github.com/ShreeshaGM/ai-voice-and-vision-for-disease-detection-/blob/main/AI-Voice-BOT/acne.jpg" width="300" height="200" />
 
 2. **AI Analysis** – The system uses LLaMA-3.2 Vision to detect abnormalities and provide a medical assessment.
 
 3. **Voice Output** – The AI-generated response is converted to speech using gTTS.
 
-4. **User Interaction** – Users receive an interactive text and voice-based diagnosis.
-
-   ![Ulcers Example](ulcers.jpg)
+4. **User Interaction** – Users receive an interactive text and voice-based diagnosis.  
+   <img src="https://github.com/ShreeshaGM/ai-voice-and-vision-for-disease-detection-/blob/main/AI-Voice-BOT/clear%20skin.jpg" width="300" height="200" />
 
 ## Setup & Installation
 
@@ -56,6 +56,7 @@ Clone the repository to your local machine using the following command:
 ```bash
 git clone <your-repo-link>
 cd AI-VOICE-BOT
+
 2. Install Dependencies
 Install the required Python dependencies:
 
